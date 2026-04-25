@@ -1,8 +1,17 @@
 # pyconstlock
 
-A simple Python utility to enforce constant variables.
+![PyPI](https://img.shields.io/pypi/v/pyconstlock)
+![Python](https://img.shields.io/pypi/pyversions/pyconstlock)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Downloads](https://img.shields.io/pypi/dm/pyconstlock)
+![Last Commit](https://img.shields.io/github/last-commit/austinewoody/pyconstlock)
+![Stars](https://img.shields.io/github/stars/austinewoody/pyconstlock)
 
-## Installation
+A lightweight Python package for creating constant-style values that cannot be reassigned or deleted.
+
+Python does not have a built-in `const` keyword like JavaScript. `pyconstlock` gives you a simple protected object for constant values.
+
+## 📦 Installation
 
 ```bash
 pip install pyconstlock
